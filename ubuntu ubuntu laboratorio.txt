@@ -1,0 +1,101 @@
+ubuntu@ubuntu:~/laboratorio_sincronizacion$ cat bitacora_semaforo.txt
+cat bitacora_monitor.txt
+Iniciando programa
+1 - Esperando semáforo...
+1 - (!) Recurso tomado
+1 - Recursos disponibles: 2
+2 - Esperando semáforo...
+2 - (!) Recurso tomado
+2 - Recursos disponibles: 1
+3 - Esperando semáforo...
+3 - (!) Recurso tomado
+3 - Recursos disponibles: 0
+4 - Esperando semáforo...
+5 - Esperando semáforo...
+2 - Recurso devuelto :)
+2 - Esperando semáforo...
+2 - (!) Recurso tomado
+2 - Recursos disponibles: 0
+1 - Recurso devuelto :)
+1 - Esperando semáforo...
+1 - (!) Recurso tomado
+1 - Recursos disponibles: 0
+3 - Recurso devuelto :)
+5 - (!) Recurso tomado
+5 - Recursos disponibles: 0
+3 - Esperando semáforo...
+2 - Recurso devuelto :)
+2 - Esperando semáforo...
+2 - (!) Recurso tomado
+2 - Recursos disponibles: 0
+1 - Recurso devuelto :)
+1 - Esperando semáforo...
+1 - (!) Recurso tomado
+1 - Recursos disponibles: 0
+5 - Recurso devuelto :)
+5 - Esperando semáforo...
+5 - (!) Recurso tomado
+5 - Recursos disponibles: 0
+2 - Recurso devuelto :)
+4 - (!) Recurso tomado
+4 - Recursos disponibles: 0
+1 - Recurso devuelto :)
+3 - (!) Recurso tomado
+3 - Recursos disponibles: 0
+5 - Recurso devuelto :)
+5 - Esperando semáforo...
+5 - (!) Recurso tomado
+5 - Recursos disponibles: 0
+4 - Recurso devuelto :)
+4 - Esperando semáforo...
+4 - (!) Recurso tomado
+4 - Recursos disponibles: 0
+3 - Recurso devuelto :)
+3 - Esperando semáforo...
+3 - (!) Recurso tomado
+3 - Recursos disponibles: 0
+4 - Recurso devuelto :)
+4 - Esperando semáforo...
+4 - (!) Recurso tomado
+4 - Recursos disponibles: 0
+5 - Recurso devuelto :)
+3 - Recurso devuelto :)
+4 - Recurso devuelto :)
+Iniciando programa
+1 - Mutex adquirido, entrando al monitor
+1 - Se consumieron 21 recursos
+3 - Mutex adquirido, entrando al monitor
+3 - Se consumieron 21 recursos
+2 - Mutex adquirido, entrando al monitor
+NUAY! Recursos actuales: 8
+4 - Mutex adquirido, entrando al monitor
+NUAY! Recursos actuales: 8
+5 - Mutex adquirido, entrando al monitor
+NUAY! Recursos actuales: 8
+1 - Recursos devueltos: 21
+1 - Mutex adquirido, entrando al monitor
+1 - Se consumieron 21 recursos
+3 - Recursos devueltos: 21
+3 - Mutex adquirido, entrando al monitor
+3 - Se consumieron 21 recursos
+NUAY! Recursos actuales: 8
+NUAY! Recursos actuales: 8
+1 - Recursos devueltos: 21
+5 - Se consumieron 21 recursos
+3 - Recursos devueltos: 21
+4 - Se consumieron 21 recursos
+4 - Recursos devueltos: 21
+4 - Mutex adquirido, entrando al monitor
+4 - Se consumieron 21 recursos
+5 - Recursos devueltos: 21
+5 - Mutex adquirido, entrando al monitor
+5 - Se consumieron 21 recursos
+NUAY! Recursos actuales: 8
+5 - Recursos devueltos: 21
+2 - Se consumieron 21 recursos
+4 - Recursos devueltos: 21
+2 - Recursos devueltos: 21
+2 - Mutex adquirido, entrando al monitor
+2 - Se consumieron 21 recursos
+2 - Recursos devueltos: 21
+
